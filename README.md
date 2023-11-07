@@ -2,7 +2,7 @@
 
 ## 📄 Licença
 
-Este projeto está sob a licença (MIT License) - veja o arquivo [LICENSE.md](https://github.com/guilhermevieirasilvagoncalves/linearRegression/blob/main/LICENSE) para detalhes.
+Este projeto está sob a licença (MIT License) - veja o arquivo [LICENSE.md](https://github.com/guilhermevieirasilvagoncalves/roundrobin/blob/main/LICENSE) para detalhes.
 
 ## ✒️ Authors
 
