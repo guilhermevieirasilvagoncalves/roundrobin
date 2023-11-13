@@ -1,5 +1,7 @@
 # Escalonador Round Robin
 
+![image](https://github.com/guilhermevieirasilvagoncalves/roundrobin/assets/88863957/b31aed16-963b-451d-9789-2b9e93d5c0a3)
+
 ## 📄 Licença
 
 Este projeto está sob a licença (MIT License) - veja o arquivo [LICENSE.md](https://github.com/guilhermevieirasilvagoncalves/roundrobin/blob/main/LICENSE) para detalhes.
