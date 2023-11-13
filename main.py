@@ -1,12 +1,21 @@
 from importFile import readfile
 from roundRobin import roundRobin
 
-processos = readfile()
-
 Quantum = 4
+Quantum2 = 100000
 
-rr = roundRobin(processos, Quantum)
+# rr = roundRobin(Quantum)
 
-rr.start()
+# rr.readfile("entrada.txt")
 
-rr.plot()
+# rr.start()
+
+# rr.plot()
+
+rrd = roundRobin(Quantum2)
+
+rrd.readfile("entrada2.txt")
+
+rrd.start()
+
+rrd.plot()

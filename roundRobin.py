@@ -11,11 +11,28 @@ def getFila(processos):
 
 class roundRobin:
     
-    def __init__(self, process, quantum):
-        self.process = process
+    def __init__(self, quantum):
+        self.process = {}
         self.quantum = quantum
         self.listProcess = {}
         self.processName = []
+        
+    def readfile(self , file):
+
+        processosLeitura = {}
+
+        arq = open(file)
+        linhas = arq.readlines()
+        for linha in linhas:
+            partes = linha.strip().split()
+            fila = queue.Queue()
+            if len(partes) == 4:
+                numeros = partes[3].split(",")
+                for i in numeros:
+                    fila.put(int(i))
+            processosLeitura[partes[0]] = [int(partes[1]), int(partes[2]),fila, int(0)]
+        self.process = dict(sorted(processosLeitura.items(), key=lambda item: item[1][1])) 
+
 
     def start(self):
 
